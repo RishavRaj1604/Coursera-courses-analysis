@@ -6,7 +6,7 @@ st.set_page_config(page_title="Coursera Dashboard", layout="wide")
 st.title("📊 Coursera Courses Analysis Dashboard")
 
 # Load dataset
-df = pd.read_csv("coursera_courses.csv")
+df = pd.read_csv("coursea_data.csv")
 
 # Show data
 st.subheader("Dataset Preview")
